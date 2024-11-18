@@ -1,0 +1,156 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mob Entertainment - Job Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="mob-logo.jpg" alt="Mob Entertainment Logo" class="logo">
+        <h1>Join Mob Entertainment</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#application">Job Application</a></li>
+            <li><a href="#team">Our Team</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Mob Entertainment</h2>
+        <p>Mob Entertainment is a world-class entertainment company committed to delivering exceptional experiences. Join us and be part of an amazing journey!</p>
+    </section>
+
+    <section id="application">
+        <h2>Job Application</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="position">Position Applying For:</label>
+            <select id="position" name="position">
+                <option value="designer">Designer</option>
+                <option value="developer">Developer</option>
+                <option value="marketer">Marketer</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label for="message">Why should we hire you?</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <section id="team">
+        <h2>Our Team</h2>
+        <ul>
+            <li><strong>Mohamed AR</strong> - Co-owner</li>
+            <li><strong>Zach Balnger</strong> - CEO</li>
+            <li><strong>Micha</strong> - Co-founder</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mob Entertainment. All rights reserved.</p>
+    </footer>
+</body>
+</html><style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #333;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+}
+
+section {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+form input, form select, form textarea, form button {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #e6b800;
+}
+
+footer {
+    background-color: #222;
+    padding: 10px 0;
+    margin-top: 50px;
+}</style>
